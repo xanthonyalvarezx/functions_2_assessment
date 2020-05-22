@@ -35,10 +35,10 @@ power(2, 8)
 factoral
 
 function factoral (z){
-  let array = [4,3,2,1]
-  let final = z
-for (let i = 0; i < array.length; i++){
- final = multiply(final, array[i])
+  
+  let final = 5
+for (let i = 1; i < z; i++){
+ final = multiply(final, i)
 
 }
 console.log(final)
