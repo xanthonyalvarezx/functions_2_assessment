@@ -6,6 +6,8 @@ function add(x, y) {
 add(2, 4)
 console.log(add(2, 4))
 
+
+
 //Multiplication
 function multiply(a, b) { // function which multiplies a,b which = 5,3
 
@@ -18,6 +20,8 @@ function multiply(a, b) { // function which multiplies a,b which = 5,3
 }
 console.log(multiply(5,3))
 multiply(5, 3) // multiply 5 and 3
+
+
 
 //Power/Exponent
 
@@ -32,7 +36,7 @@ function power(x, n) {
 power(2, 8)
 
 
-factoral
+//factoral
 
 function factoral (z){
   
@@ -46,6 +50,21 @@ return final
 }
 factoral(5)
 
+//fibonacci
+function fibonacci(f){
+let fib1 = 0
+let fib2 = 1
+let nextNum
+for(let i = 2; i < f; i++){
+  nextNum = add(fib1,fib2)
+  fib1 = fib2
+  fib2 = nextNum
+  
+}
+console.log(nextNum)
+return nextNum
+}
+fibonacci(8)
 
 
 
@@ -63,16 +82,3 @@ factoral(5)
 
 
 
-
-//factoral
-
-// function factoral(c,d){
-//   for ( i = 0; i < d.length; i++){
-// resultOne = add(c,c)
-//   }
-// }
-
-
-// let resultOne = 0
-// factoral(5,)
-// console.log(resultOne)
