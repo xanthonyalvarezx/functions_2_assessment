@@ -13,9 +13,10 @@ function multiply(a, b) { // function which multiplies a,b which = 5,3
   for (let i = 0; i < b; i++) { // for i = 0 when < b which is 3 incriment i by 1
     total = add(a, total) // add a which is 5 to the total which is 0 making it 5 then 10 then 15
   }
-  console.log(total) // console log the total which should be 5 * 3 = 15
+   // console log the total which should be 5 * 3 = 15
   return total
 }
+console.log(multiply(5,3))
 multiply(5, 3) // multiply 5 and 3
 
 //Power/Exponent
